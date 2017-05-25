@@ -1,4 +1,5 @@
 Please load the tiny_data_set using the following command: 
+=========================================
 
 tidy_data_set <- read.table("tidy_data_set path",header=TRUE,sep=",")
 ##where "tidy_data_set path" is based on where you are storing the tiny_data_set)
