@@ -17,6 +17,30 @@ The GitHub Repo includes the following files:
 
 - 'tidy_data_set': The final tidy_data_set.
 
+The run_analysis.R script was built as follows:
+=========================================
+Loads the Reshape2 package which is used towards the end of the script.
+
+Loads raw data sets w/ read.table
+  - Loads activity labels
+  - Loads feature names
+  - Loads raw training and testing data sets including subject files
+
+Cleans up column headers using the names function
+  - Assigns activity_labels column header
+  - Assigns feature names (aka descriptive variable names)
+  - Renames the label file headers so it's clear they are activity codes
+  - Assigns ID header to subject data sets
+  
+Merges the testing and training data sets using cbind and rbind
+
+Pulls out only those feature columns that contain mean and std deviation data using grepl
+
+Assigns/maps the activity codes to descriptive activity names using match
+
+Creates teh final tidy data set using the reshape2 package to convert long to wide format via melt and cast
+  - Melts on subject and activity
+  - Casts and mean aggregation
 
 The following relates to the raw data that was used to create the tidy_data_set and credits the original authors as appropriate:
 =========================================
