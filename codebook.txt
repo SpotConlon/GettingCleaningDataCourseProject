@@ -1,6 +1,16 @@
 Codebook
 =================
 
+The dataset has been created by combining both a testing data set and a training data set.
+
+The final tidy_data_set contains the average of each variable for each activity and each subject.
+
+So for example, the first subject is subject 1 and the first activity is laying, so the corresponding row contains the average value of each feature (see feature list below) for that subject and activity across all observations over the duration of the testing and training periods.
+
+The following codebook provides information regarding each of the columns in the tidy_data_set.
+
+=================
+
 SubjectID - Column 1
 The person ID for the 30 volunteers (see ReadMe for additional information)
 
