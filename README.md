@@ -17,7 +17,7 @@ The GitHub Repo includes the following files:
 
 The following relates to the raw data that was used to create the tidy_data_set and credits the original authors as appropriate.
 
-==================================================================
+=========================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
