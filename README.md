@@ -1,5 +1,6 @@
 Please load the tiny_data_set using the following command (where "tidy_data_set path" is based on where you are storing the tiny_data_set)
 tidy_data_set <- read.table("tidy_data_set path",header=TRUE,sep=",")
+
 Please refer to the codebook for information around the structure of the tidy_data_set (variables, aggregation methods, units and other relevant details).
 
 The GitHub Repo includes the following files:
