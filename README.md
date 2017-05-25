@@ -1,12 +1,5 @@
-=========================================
-=========================================
-
 Please load the tiny_data_set using the following command (where "tidy_data_set path" is based on where you are storing the tiny_data_set)
 tidy_data_set <- read.table("tidy_data_set path",header=TRUE,sep=",")
-
-=========================================
-=========================================
-
 Please refer to the codebook for information around the structure of the tidy_data_set (variables, aggregation methods, units and other relevant details).
 
 The GitHub Repo includes the following files:
@@ -29,7 +22,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - UniversitÃ  degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
