@@ -17,9 +17,9 @@ The GitHub Repo includes the following files:
 
 - 'tidy_data_set': The final tidy_data_set.
 
-The run_analysis.R script was built as follows:
+The run_analysis.R script executes as follows:
 =========================================
-Loads the Reshape2 package which is used towards the end of the script.
+Loads the Reshape2 package which is used towards the end of the script
 
 Loads raw data sets w/ read.table
   - Loads activity labels
@@ -38,7 +38,7 @@ Pulls out only those feature columns that contain mean and std deviation data us
 
 Assigns/maps the activity codes to descriptive activity names using match
 
-Creates teh final tidy data set using the reshape2 package to convert long to wide format via melt and cast
+Creates the final tidy data set using the reshape2 package to convert long to wide format via melt and cast
   - Melts on subject and activity
   - Casts and mean aggregation
 
