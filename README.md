@@ -2,7 +2,11 @@ Load the tidy_data_set using the following command:
 =========================================
 
 tidy_data_set <- read.table("tidy_data_set path",header=TRUE,sep=",")
-##where "tidy_data_set path" is based on where you are storing the tiny_data_set
+##where "tidy_data_set path" is based on where you are storing the tidy_data_set
+
+example:
+tidy_data_set = "https://s3.amazonaws.com/coursera-uploads/peer-review/ed9d237da0ebe1a9a20143e0e47a99b0/tidy_data_set"
+tidy_data_set = read.table(tidy_data_set,header=TRUE,sep=",")
 
 Please refer to the codebook for information around the structure of the tidy_data_set (variables, aggregation methods, units and other relevant details).
 
